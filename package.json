@@ -69,6 +69,18 @@
                 "path": "./syntaxes/fortran.tmLanguage"
             }
         ],
+        "commands": [
+            {
+                "command": "fortran.make_all",
+                "title": "Make all",
+                "category": "Fortran"
+            },
+            {
+                "command": "fortran.make_clean",
+                "title": "Make clean",
+                "category": "Fortran"
+            }
+        ],
         "snippets": [
             {
                 "language": "fortran-modern",
