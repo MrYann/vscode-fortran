@@ -5,6 +5,13 @@
 	},
 	// symbols used as brackets
 	"brackets": [
-		["(", ")"]
-	]
+		[
+			"(",
+			")"
+		]
+	],
+	"indentationRules": {
+		"increaseIndentPattern": "^\\s*((module|contains|function|subroutine|begin|else|elsif|do|for|case|select case|type)|(if\\b.*\\bthen))\\b",
+		"decreaseIndentPattern": "^\\s*(contains|end|else|elseif|endif|case)\\b"
+	}
 }
